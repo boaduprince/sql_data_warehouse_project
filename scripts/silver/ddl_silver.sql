@@ -1,3 +1,5 @@
+/*DDL SCRIPT: Create Schemas for Different Data Layers and Silver Table
+  SCRIPT PURPOSE: This script creates schemas for different layers of the data  and creates tables in silver schema, dropping tables if they already exist */ 
 
 
 /*1*/ DROP TABLE IF EXISTS silver.crm_cust_info;
